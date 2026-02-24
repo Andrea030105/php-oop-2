@@ -31,14 +31,14 @@ $products = [
         ['pollo']
     ),
     new Toy(
-        'Croccantini gatto',
+        'Osso',
         17.99,
         'https://img.aosomcdn.com/thumbnail/100/n0/product/2025/10/07/tR2661199be716e83.jpg',
         $categories['cane'],
         10
     ),
     new Toy(
-        'Croccantini gatto',
+        'Topi per gatto',
         17.99,
         'https://img.aosomcdn.com/thumbnail/100/n0/product/2025/10/07/tR2661199be716e83.jpg',
         $categories['gatto'],
@@ -53,7 +53,7 @@ $products = [
         5
     ),
     new Optional(
-        'Topi per gatto',
+        'Corda per unghie',
         5.99,
         'https://img.aosomcdn.com/thumbnail/100/n0/product/2025/10/07/tR2661199be716e83.jpg',
         $categories['gatto'],

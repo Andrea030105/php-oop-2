@@ -31,7 +31,7 @@ include __DIR__ . "/database.php";
                             <h5 class="card-title text-uppercase"><?php echo $item->name ?></h5>
                             <p class="card-text text-capitalize">
                                 <?php
-                                echo $item->icon,  $item->category_name;
+                                echo $item->category->icon . ' ' . $item->category->category_name;
                                 echo "<br>", "Prezzo: ", $item->price, "<br>";
                                 ?>
                                 <?php
